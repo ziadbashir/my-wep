@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب المحامي وسام بشير</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .contact-info {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info i {
+            margin-left: 10px;
+        }
+
+        .consultation {
+            margin-top: 20px;
+        }
+
+        .consultation button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        .consultation button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 10px;
+            }
+
+            .contact-info, .consultation {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مكتب المحامي وسام بشير</h1>
+    <p>التخصص: قضايا مدنية وجنائية</p>
+</header>
+
+<section>
+    <div class="contact-info">
+        <h2>معلومات التواصل:</h2>
+        <p><i class="fas fa-phone"></i> الهاتف: 0527913495</p>
+        <p><i class="fas fa-envelope"></i> البريد الإلكتروني: wesamn93@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> العنوان: شارع الرشيد، القدس</p>
+    </div>
+
+
+    <div class="consultation">
+        <h2>احجز استشارة</h2>
+        <!-- زر حجز الموعد الذي يفتح البريد الإلكتروني -->
+        <button onclick="window.location.href='mailto:wesamn93@gmail.com?subject=حجز موعد مع المحامي وسام بشير&body=الاسم: [أدخل اسمك هنا] %0A الوقت المطلوب: [أدخل الوقت هنا]';">
+            احجز الآن
+        </button>
+    </div>
+</section>
+
+<footer>
+    <p>حقوق الطبع والنشر © 2025 مكتب المحامي وسام بشير</p>
+</footer>
+
+</body>
